@@ -1,5 +1,5 @@
 public interface LogAnalyzer {
-    Integer count();
+    Integer count(); // can return null (means something went wrong)
     List<StatusCount> getDistribution();
 }
 
